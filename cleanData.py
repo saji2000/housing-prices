@@ -9,3 +9,4 @@ for i in range(len(df["Price"])):
         df.loc[i, "Price"] *= -1
 
 df.to_csv("housing_data.csv", index=False)
+
